@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Online Voting Sytem"
+        android:text="Online Voting System"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="60dp"
