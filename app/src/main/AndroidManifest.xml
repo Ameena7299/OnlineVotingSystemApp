@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineVotingSystemApp">
-        <activity android:name=".welcomeActivity"></activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.example.onlinevotingsystemapp.HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name="com.example.onlinevotingsystemapp.RegisterActivity" />
+        <activity android:name="com.example.onlinevotingsystemapp.LoginActivity" />
+        <activity android:name="com.example.onlinevotingsystemapp.welcomeActivity" />
+        <activity android:name="com.example.onlinevotingsystemapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
