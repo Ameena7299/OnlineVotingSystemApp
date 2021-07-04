@@ -9,13 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineVotingSystemApp">
+        <activity android:name=".UserUpdatePassword"></activity>
         <activity
-            android:name="com.example.onlinevotingsystemapp.HomeActivity"
+            android:name=".HomeActivity"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-        <activity android:name="com.example.onlinevotingsystemapp.RegisterActivity" />
-        <activity android:name="com.example.onlinevotingsystemapp.LoginActivity" />
-        <activity android:name="com.example.onlinevotingsystemapp.welcomeActivity" />
-        <activity android:name="com.example.onlinevotingsystemapp.MainActivity">
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".welcomeActivity" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
