@@ -148,7 +148,7 @@ public class SelectParty extends AppCompatActivity {
 
                                 Intent i=new Intent(SelectParty.this,FinalActivity.class);
                                 i.putExtra("phone",Phone);
-                                i.putExtra("partyname","Party 3");
+                                i.putExtra("partyname","PPP");
 
                                 startActivity(i);
 

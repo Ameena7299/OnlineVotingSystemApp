@@ -1,4 +1,4 @@
-spackage com.example.onlinevotingsystemapp;
+package com.example.onlinevotingsystemapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
