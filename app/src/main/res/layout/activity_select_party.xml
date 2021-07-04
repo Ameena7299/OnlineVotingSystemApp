@@ -37,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/buttons"
-        android:text="PMLN"
+        android:text="PMN"
         android:textColor="@android:color/white"
         android:layout_below="@+id/party1"
         android:textSize="20sp"
