@@ -21,14 +21,14 @@ public class FinalActivity extends AppCompatActivity {
     }
 
     Intent i=getIntent();
-    PartyName=i.getStringExtra("partyname");
+//    PartyName=i.getStringExtra("partyname");
+//
+//    V1=(TextView)findViewById(R.id.v1);
+//    V2=(TextView)findViewById(R.id.v2);
+//
+//        V2.setText("Your vote is submitted to "+PartyName);
 
-    V1=(TextView)findViewById(R.id.v1);
-    V2=(TextView)findViewById(R.id.v2);
 
-        V2.setText("Your vote is submitted to "+PartyName);
-
-}
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater=getMenuInflater();
