@@ -9,14 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OnlineVotingSystemApp">
-        <activity android:name=".UserUpdatePassword"></activity>
+        <activity android:name="com.example.onlinevotingsystemapp.CameraActivity">
+            <meta-data
+                android:name="com.google.firebase:firebase-ml-vision.DEPENDENCIES"
+                android:value="face" />
+        </activity>
         <activity
-            android:name=".HomeActivity"
+            android:name="com.example.onlinevotingsystemapp.FinalActivity"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".welcomeActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.onlinevotingsystemapp.UserUpdatePassword" />
+        <activity android:name="com.example.onlinevotingsystemapp.SelectParty" />
+        <activity android:name="com.example.onlinevotingsystemapp.VerifyId" />
+        <activity
+            android:name="com.example.onlinevotingsystemapp.HomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity android:name="com.example.onlinevotingsystemapp.RegisterActivity" />
+        <activity android:name="com.example.onlinevotingsystemapp.LoginActivity" />
+        <activity android:name="com.example.onlinevotingsystemapp.welcomeActivity" />
+        <activity android:name="com.example.onlinevotingsystemapp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
